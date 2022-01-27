@@ -142,3 +142,75 @@ Você também pode consultar se a feature pode ser utilizada através dos sites:
 https://ireade.github.io/which-vendor-prefix
 
 https://caniuse.com
+
+
+
+## Porcentagens
+
+Descrição
+As porcentagens são valores bem flexíveis
+Em muitos casos é tratado da mesma maneira que as distâncias <length>
+Sempre será relativo a algum valor
+💻 Exemplo
+Relativo ao elemento pai
+
+<!--
+<ul>
+	<li>One</li>
+	<li>Two</li>
+	<li>Three
+		<ul>
+			<li>Three A</li>
+			<li>Three B</li>
+			<ul>
+				<li>Three B 2</li>
+			</ul>
+		</ul>
+	</li>
+</ul>
+li {
+    font-size: 80%;
+}
+-->
+
+
+## Position
+
+Descrição
+Posições
+<position>
+
+Representa um conjunto de coordenadas 2
+top, right, bottom, left e center
+Usado para alguns tipos de propriedades como o background-position
+Não confundir com a propriedade position
+
+
+
+## Funções
+
+Descrição
+Nessa aula vamos falar sobre funções no CSS.
+
+Funções
+Em programação, funções são reconhecidas por causar um reaproveitamento de código.
+Exemplos de funções do CSS:
+
+rgb()
+hsl()
+url()
+calc()
+Dentro dos parêntesis são passados argumentos
+
+Link da documentação do MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions
+
+
+
+## Strings e identificadores
+
+Descrição
+Strings: texto envolto em aspas
+.box::after {
+	content: "Isso é uma string"
+}
+Identificadores: podemos ter nomes de cores como red, black, gold
