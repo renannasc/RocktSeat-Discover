@@ -32,3 +32,12 @@ Normalmente usa-se o código abaixo como forma de "resetar" o box-sizing que vem
 }
 
 O seletor * seleciona todos os elementos da página.
+
+
+## Display-block-inline
+
+Display Block
+ * Ocupa toda a linha, colocando o próximo elemento abaixo desse
+
+Display Inline
+ * Os elementos ficam ao lado do outro e não empurram outros elementos para baixo
