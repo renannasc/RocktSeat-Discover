@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 8px;
+
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
