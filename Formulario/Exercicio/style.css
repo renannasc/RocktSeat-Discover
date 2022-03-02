@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.formulario{
+    background-color: white;
+    padding: 40px;
+}
+form{
+    background-color: rgb(141, 78, 241);
+}
+label{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    border-radius: 0.3em;
+}
+
+textarea{
+    border-radius: 0.3em;
+}
