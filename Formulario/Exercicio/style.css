@@ -3,14 +3,17 @@
 }
 
 .formulario{
-    background-color: white;
+    background-color: #3A2D80;
     padding: 40px;
 }
 form{
     background-color: rgb(141, 78, 241);
 }
-label{
+legend{
     font-size: 20px;
+}
+label{
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,4 +23,7 @@ input{
 
 textarea{
     border-radius: 0.3em;
+}
+button{
+    font-size: 15px;
 }
