@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    
+        <form action="" method="post">
+        <fieldset>
+            <legend>Contato</legend>
+
+            <label for="">Nome</label>
+            <input type="text">
+        </fieldset>
+        </form> 
+    
+
+   
+
+    <fieldset form="email" disable>
+        <legend>Contato</legend>
+        <label for="">E-mail</label>
+        <input type="text">
+    </fieldset>
+    <form action="" id="email" method="get">
+        <button type="submit">Enviar</button>
+    </form>
+    
+<form action="">
+    <label>
+        Endereço: 
+        <input type="text" value="">
+        <button type="reset">Limpar</button>
+
+    </label>
+</form>
+
+<input type="text" list="cor" placeholder="Escolha a sua cor">
+
+<datalist id="cor">
+    <option>Azul</option>
+    <option>Vermelho</option>
+    <option>Rosa</option>
+    <option>Preto</option>
+    <option>Branco</option>
+</datalist>
+
+
+<datalist id="colors">
+    <option>#ff0011</option>
+    <option>#12296D</option>
+</datalist>
+<input type="color" list="colors">
+
+<h3>Tipos de input</h3>
+<input type="text" autofocus><br><br>
+<input type="checkbox"><br><br>
+<input type="date"><br><br>
+<input type="email" autocomplete="email"><br><br>
+<input type="file"><br><br>
+<input type="image"><br><br>
+<input type="time"><br><br>
+<input type="password"><br><br>
+
+<h3>Desativando os campos de entrada de valores ou informação</h3>
+<input type="text" value="Escreva aqui" disabled>
+<input type="text" value="Escreva aqui novamente" readonly>
+
+<h3>Linkar um formulario a um input</h3>
+<form id="form-exit" method="post">
+    <label for="dados">Dados</label>    
+</form>
+<input id="dados" type="text" form="form-exit" name="dados">
+<button>Saida</button>
+
+<form action="" method="post">
+    <label for="addres">Endereço</label>
+    <input id="addres" type="text" name="Endereço" placeholder="Seu endereço atual" required>
+    <button>Enviar</button>
+</form>
+
+<br><br><br>
+
+
+<h3>Imputs do tipo password e seus atributos</h3>
+
+<form action="">
+    <label for="">Entre com a senha: </label>
+    <input 
+    type="password" 
+    minlength="4" 
+    maxlength="9" 
+    pattern="[0-9a-fA-F]{4,9}"
+    title="Colocar numeros e letras no minimo 4 numeros e caracteres e no maximo 9 numeros e caracteres"
+    placeholder="Informe a sua senha"
+    required
+    inputmode="numeric"
+    autocomplete="off"
+    >
+    <button type="submit">Enviar</button>
+
+</form>
+
+
+<br><br><br>
+
+
+<h3>Inputs do tipo E-mail e suas propriedades</h3>
+<!-- Atributos pattern para colocar condições do tipo, somente e-mail dominio gmail: .+@gmail\.com\.br -->
+
+<form action="">
+
+    <datalist id="emaillist">
+        <option>renan@gmail.com</option>
+        <option>outroemail@gmail.com.br</option>
+    </datalist>
+
+
+    <label for="">Entre com o E-mail: </label>
+    <input 
+        type="email"
+        name=""
+        id="e-mail"
+        placeholder="E-mail"
+        required
+        list="emaillist"
+    >
+    <button type="submit">Enviar</button>
+
+</form>
+
+
+<h3>URLs e suas propriedades</h3>
+<!-- Propriedades pattern no input, para realizar validações que desejar no campo-->
+
+<form action="">
+    <datalist id="urls">
+        <option value="https://globo.com"></option>
+        <option value="https://facebook.com.br"></option>
+        <option value="https://google.com"></option>
+
+    </datalist>
+    <input 
+        type="url"
+        placeholder="informe uma URL"
+        required
+        title="Somente e-mail validos serao aceitos"
+        list="urls"
+
+    >
+    <button type="submit">Encaminhar</button>
+</form>
+
+
+<h3>Input do tipo File e suas propriedades</h3>
+
+
+
+<form action="" method="post" enctype="multipart/form-data">
+    <label for="">Selecionar o arquivo</label>
+    <input 
+        type="file" 
+        value=""
+        accept=".doc, image/*, .pdf, .pdf"
+        multiple
+               
+        >
+    <button type="submit">Encaminhar</button>
+</form>
+
+
+
+<h3>Input do tipo color e </h3>
+
+<input type="color" value="#00ff00">
+
+
+    <legend>Escolha e alguns interesses</legend>
+
+
+<h3>input do tipo checkbox e  atributos</h3>
+
+<label for="subscript">Receber notificações</label>
+<input 
+    type="checkbox"
+    name="subscript" 
+    id="subscript"
+    checked
+    
+>
+
+
+<fieldset>
+    <legend>Escolha e alguns interesses</legend>
+    <div>
+        <input type="checkbox" id="coding" name="interesse" value="coding" checked>
+        <label for="coding">Coding</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="music" name="interesse" value="music">
+        <label for="music">Musica</label>
+    </div>
+</fieldset>
+
+
+<h3>Input do tipo hedden e alguns propriedades</h3>
+
+<p>Enviara para o beckend informações oqual recebera respectivamente os seguintes dados, por exemplo: hours = 10 sem que o usuario perceba</p>
+<input type="hidden" name="hours" value="10">
+<!-- enviara para o beckend informações oqual recebera respectivamente os seguintes dados: hours = 10 sem que o usuario perceba-->
+
+
+<h3>Radio e alguns propriedades</h3>
+
+<fieldset>
+    <legend>Bora tomar cafe ?</legend>
+
+    <label for="">sim</label>
+    <input type="radio" id="yep" name="coffe" value="yes" checked>
+
+    <label for="">não</label>
+    <input type="radio" name="coffe" id="yep" value="no">
+
+    <button type="submit">Enviar</button>
+</fieldset>
+
+
+<h3>Textarea e alguns propriedades</h3>
+
+
+<textarea name="message" id="message" cols="60" rows="15" maxlength="150" wrap="off" placeholder="Deixe sua mensagem"></textarea>
+
+
+<h3>Select e alguns propriedades</h3>
+
+<label for="carselect">Qual o modelo do carro</label>
+
+<select name="carmodel" id="carselect" >
+    <option value="">Selecione o modelo</option>
+    <option value="">FORD</option>
+    <option value="">TESLA</option>
+    <option value="">CHEVROLET</option>
+    <option value="">BMW</option>
+
+
+
+</select>
+
+
+<h3>Optgroup e alguns propriedades</h3>
+ <label for="">Por favor choose one or more pets</label><br>
+<select name="pets" id="pets" multiple size="3">
+    <optgroup label="4 - tipos de pets">
+        <option value="dog">Cachorro</option>
+        <option value="cat">Gato</option>
+        <option value="hamster">Hamster</option>
+    </optgroup>
+
+    <optgroup label="4 - outros pets">
+        <option value="dog">parrot</option>
+        <option value="cat">macaw</option>
+        <option value="hamster">albatross</option>
+    </optgroup>
+</select>
+
+
+<h3>Source e alguns propriedades</h3>
+
+
+<datalist id="sourcelist"> 
+    <option>MAC</option>
+    <option>Windows</option>
+    <option>Linux</option>
+</datalist>
+
+<form action="">
+    <input type="source" name="q" id="source" list="sorucelist" aria-label="campo de pesquisa">
+    <button>Pesquisar</button>
+</form>
+
+
+
+<h3>Input do tipo NUMBER e alguns atributos</h3>
+
+<datalist id="number">
+    <option value="">0</option>
+    <option value="">10</option>
+    <option value="">20</option>
+
+</datalist>
+
+<input type="number" min="0 max="999" step="10" size="30" placeholder="Digite somente numeros" list="number">
+
+
+<h3>Input do tipo RANGE e alguns atributos</h3>
+
+<input type="range" min="1" max="100" value="60" step="10">
+
+
+<h3>Input do tipo DATE e alguns atributos</h3>
+
+<input type="month" name="date" id="date" >
+<input type="date" name="date" id="date" >
+<input type="datetime-local" name="date" id="date" >
+
+
+</body>
+</html>
