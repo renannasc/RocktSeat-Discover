@@ -1,11 +1,7 @@
-var clima = "Quente"
+console.log('Existe x antes do bloco?', x)
 
-console.log(clima)
+{
+    var x = 0
+}
 
-let lastname = "Nascimento"
-console.log(lastname)
-
-
-const temperatura = 32
-
-console.log(temperatura)
+console.log('Existe x depois do bloco?', x)
