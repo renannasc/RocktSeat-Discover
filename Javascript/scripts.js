@@ -1,7 +1,8 @@
-console.log('Existe x antes do bloco?', x)
+//console.log('Existe y antes do bloco?', y)
 
 {
-    var x = 0
+    let y = 0
+    console.log('Existe y dentro deste scope local criado e o valor é: ', y)
 }
 
-console.log('Existe x depois do bloco?', x)
+//console.log('Existe y depois do bloco?', y)
