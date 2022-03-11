@@ -36,3 +36,16 @@ console.log(number1 > number2)
 console.log(number1 >= number2)
 console.log(number1 < 0)
 console.log(number1 >= 10)
+
+
+//OPERADORES DE ATRIBUIÇÃO
+console.log("Operadores de atribuição")
+
+let numberx = 5
+
+numberx += 10 //numbeerx = numberx + 10
+numberx -= 11
+numberx /= 12
+numberx *= 13
+numberx **= 14
+console.log(numberx)
