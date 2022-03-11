@@ -25,3 +25,14 @@ console.log(y === 1)
 // === estritamente diferente a
 console.log(x !== 1)
 console.log(y !== 2)
+
+
+// OUTROS OPERADORES comparação >= <=
+console.log("Maior Menor ou igual ")
+let number1 = 1
+let number2 = 2
+
+console.log(number1 > number2)
+console.log(number1 >= number2)
+console.log(number1 < 0)
+console.log(number1 >= 10)
