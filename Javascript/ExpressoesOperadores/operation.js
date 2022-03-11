@@ -80,3 +80,14 @@ console.log(niceBreakfasts)
 let age = 16
 const canDrive = age >= 18 ? 'can drive' : 'cant drive'
 console.log(canDrive)
+
+
+//OPERADORES PARA STRING
+console.log("Operadores para string")
+
+console.log('a' == 'a')
+
+let alpha = 'alpha'
+console.log(alpha + 'bet' + 's')
+//or
+console.log(alpha+='bet')
