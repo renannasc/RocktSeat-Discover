@@ -49,3 +49,16 @@ numberx /= 12
 numberx *= 13
 numberx **= 14
 console.log(numberx)
+
+
+//OPERADORES LOGICOS
+console.log("Operadores Logicos")
+
+let pao = false
+let queijo = true
+
+console.log(pao && queijo)
+
+console.log(pao || queijo)
+
+console.log(!queijo)
