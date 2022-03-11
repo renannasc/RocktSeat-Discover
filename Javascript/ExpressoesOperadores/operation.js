@@ -62,3 +62,21 @@ console.log(pao && queijo)
 console.log(pao || queijo)
 
 console.log(!queijo)
+
+
+//OPERADORES CONDICIONAL TERNARIO
+
+console.log("Operado condicional ternario")
+let paozinho = false
+let requeijao = true
+
+const niceBreakfast = paozinho && requeijao? 'Cafe top' : 'Cafe ruim'
+const niceBreakfasts = paozinho || requeijao? 'Cafe +-' : 'Cafe pessimo'
+
+console.log(niceBreakfast)
+console.log(niceBreakfasts)
+
+
+let age = 16
+const canDrive = age >= 18 ? 'can drive' : 'cant drive'
+console.log(canDrive)
