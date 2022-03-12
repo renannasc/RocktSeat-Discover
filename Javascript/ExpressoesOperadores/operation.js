@@ -145,3 +145,25 @@ console.log(-1 ? 'true' : 'false')
 console.log(Infinity ? 'true' : 'false')
 console.log(-Infinity ? 'true' : 'false')
 
+
+/* Precedência dos operadores
+
+    De cima para baixo, do mais importante ao menos importante.
+
+    * grouping                      ( )
+    * negação e incremento          ! ++ --
+    * multiplicação e divisão       * /
+    * adição e subtração            + -
+    * relacional                    < <= > >=
+    * igualdade                     == != === !==
+    * AND                           && 
+    * OR                            ||
+    * condicional                   ?:
+    * assignment (atribuição)       = += -= *= %= 
+
+*/
+console.log('Precedência dos operadores')
+console.log(2 + 5 * 10)
+console.log((2 + 5) * 10)
+console.log(3 > 2 > 1) //Ou seja 3 > 2: true e true > 1: false
+console.log(3 > 2 && 2 > 1 )
