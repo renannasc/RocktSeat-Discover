@@ -91,3 +91,57 @@ let alpha = 'alpha'
 console.log(alpha + 'bet' + 's')
 //or
 console.log(alpha+='bet')
+
+
+//TYPE FALSY E TRUTHY
+console.log('Typer falsy e truthy')
+
+console.log('9' + 5)
+console.log('FALSY OU TRUTHY')
+/**
+ * Valores como os abaixo sao considerados falsy
+ * 
+ * 0
+ * -0
+ * ""
+ * null
+ * undefined
+ * NaN
+ */
+console.log('VALORES FALSY')
+console.log(false ? 'verdadeiro' : 'falso')
+console.log(0 ? 'true' : 'false')
+console.log(-0 ? 'true' : 'false')
+console.log("" ? 'true' : 'false')
+console.log(null ? 'true' : 'false')
+console.log(undefined ? 'true' : 'false')
+console.log(NaN ? 'true' : 'false')
+
+/**
+ * Valores como os abaixo sao considerados truthy
+ * 
+ * true
+ * {}
+ * []
+ * 1
+ * 3.23
+ * "0"
+ * "false"
+ * -1
+ * infinity
+ * -infinity
+ * 
+ */
+
+ console.log('VALORES TRUTHY')
+console.log(true ? 'true' : 'false')
+console.log({} ? 'true' : 'false')
+console.log([] ? 'true' : 'false')
+console.log(1 ? 'true' : 'false')
+console.log(1.11 ? 'true' : 'false')
+console.log("0" ? 'true' : 'false')
+console.log("false" ? 'true' : 'false')
+console.log(-1 ? 'true' : 'false')
+console.log(Infinity ? 'true' : 'false')
+console.log(-Infinity ? 'true' : 'false')
+
