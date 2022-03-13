@@ -5,3 +5,5 @@ while (index <= 10) {
     
     index++
 }
+
+//utilizado quando nao sabemos o momento da parada ou quando ira parar
