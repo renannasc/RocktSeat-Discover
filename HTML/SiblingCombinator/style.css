@@ -1,0 +1,14 @@
+/*
+    Selector o proximo filho somente e aplica o CSS
+*/
+h1 + p{
+    color: blueviolet;
+}
+
+
+/*
+    Selector para pegar todos o filhos sucessivamente e aplica o CSS
+*/
+h2 ~ p{
+    color: red;
+}
