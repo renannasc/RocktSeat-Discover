@@ -3,3 +3,22 @@ ul li:first-child{
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
+
+article p:nth-of-type(1){
+    font-size: 30px;
+    color: blue;
+}
+
+div p:nth-child(3){
+    color: red;
+    
+}
+
+section p:nth-child(odd){
+    color: blueviolet;
+    background: #eee;
+}
+section p:nth-child(even){
+    color: blue;
+    background: rgb(165, 161, 161);
+}
