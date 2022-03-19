@@ -22,3 +22,23 @@ section p:nth-child(even){
     color: blue;
     background: rgb(165, 161, 161);
 }
+
+
+a:hover{
+    color: blueviolet;
+    font-size: 25px;
+}
+
+input:focus{
+    border-color: blue;
+    background: grey;
+    outline: none;
+}
+
+input:disabled{
+    background-color: red;
+}
+
+input:required{
+    background-color: greenyellow;
+}
