@@ -1,0 +1,16 @@
+li::before{
+    content: ">"
+}
+
+li::after{
+    content: ";";
+}
+
+p::first-line{
+    background-color: #eee;
+}
+
+p:nth-last-of-type(2)::first-line{
+    color: blueviolet;
+    font-weight: bold;
+}
