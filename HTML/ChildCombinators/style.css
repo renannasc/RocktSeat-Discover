@@ -1,0 +1,20 @@
+/*
+    Child combinator
+
+    Identificado pelo sinal > entre dois seletores
+    seleciona somente o elemento que é filho direto do pai
+    Elementos depois do filho direto serão desconsiderados
+
+*/
+
+body > ul > li{
+    color: blueviolet;
+}
+
+body > ol > ul{
+    color: red;
+}
+
+body > ol > li{
+    color: blue;
+}
