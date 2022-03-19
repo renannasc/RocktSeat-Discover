@@ -1,0 +1,56 @@
+/*
+        Elemento selector
+
+        todas as tag em html
+*/
+
+h1{
+    color: blueviolet;
+}
+p{
+    color: blue;
+}
+
+/*
+    ID Selector
+*/
+
+#idselector{
+    color: brown;
+}
+
+#content{
+    color: yellowgreen;
+    font-size: 2em;
+}
+
+/*
+    Class Selector
+*/
+
+.classtitle{
+    font-size: 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+}
+
+/*
+    Title selector
+*/
+
+[title]{
+    color: orange;
+    font-size: 1em;
+}
+
+/*
+    Pseudo selector
+*/
+
+.pseudo{
+    color: black;
+    font-size: 2em;
+}
+h4:hover, p:hover{
+    color: blueviolet;
+}
